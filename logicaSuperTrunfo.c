@@ -103,16 +103,7 @@
             printf("Carta 1 - %s: %lu habitantes\n", nomeCidade1, populacao1);
             printf("Carta 2 - %s: %lu habitantes\n", nomeCidade2, populacao2);
             
-            resultadoComparar1 = (populacao1 > populacao2) ? 1 : 0;
-            /*
-            if (populacao1 > populacao2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade1);
-            } else if (populacao1 < populacao2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade2);
-            } else {
-                printf ("Resultado: Empate!\n");
-            }
-            */            
+            resultadoComparar1 = (populacao1 > populacao2) ? 1 : 0;                    
             
             break;
 
@@ -121,18 +112,7 @@
             printf ("Carta 1 - %s - Área: %.2f\n", nomeCidade1, area1);
             printf ("Carta 2 - %s - Área: %.2f\n", nomeCidade2, area2);
 
-            resultadoComparar1 = (area1 > area2) ? 1 : 0;
-            /*
-            if (area1 > area2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade1);
-            }
-            else if (area1 < area2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade2);
-            }
-            else {
-                printf ("\nEmpate!\n");
-            }
-            */            
+            resultadoComparar1 = (area1 > area2) ? 1 : 0;                       
             
             break;
         
@@ -141,18 +121,7 @@
             printf ("Carta 1 - %s - PIB %.2f\n", nomeCidade1, pib1);
             printf ("Carta 2 - %s - PIB %.2f\n", nomeCidade2, pib2);
             
-            resultadoComparar1 = (pib1 > pib2) ? 1 : 0;
-            /*
-            if (pib1 > pib2) {     
-                printf ("Resultado: %s venceu!\n", nomeCidade1);
-            }
-            else if (pib1 < pib2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade2);
-            }
-            else {
-            printf ("\nEmpate!\n");
-            }
-            */            
+            resultadoComparar1 = (pib1 > pib2) ? 1 : 0;          
             
             break;
 
@@ -162,18 +131,7 @@
             printf ("Carta 1 - %s - Números de Pontos Turísticos: %d\n", nomeCidade1, numeroPontosTuristicos1);
             printf ("Carta 2 - %s - Números de Pontos Turísticos: %d\n", nomeCidade2, numeroPontosTuristicos2); 
             
-            resultadoComparar1 = (numeroPontosTuristicos1 > numeroPontosTuristicos2) ? 1 : 0;
-            /*
-            if (numeroPontosTuristicos1 > numeroPontosTuristicos2) {     
-                printf ("Resultado: %s venceu!\n", nomeCidade1);
-            }
-            else if (numeroPontosTuristicos1 < numeroPontosTuristicos2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade2);
-            }
-            else {
-            printf ("\nEmpate!\n");
-            }
-            */            
+            resultadoComparar1 = (numeroPontosTuristicos1 > numeroPontosTuristicos2) ? 1 : 0;                   
             
             break;
 
@@ -182,18 +140,7 @@
             printf ("Carta 1 - %s - Densidade Populacional: %.2f\n", nomeCidade1, denspopulacao1);
             printf ("Carta 2 - %s - Densidade Populacional: %.2f\n", nomeCidade2, denspopulacao2); 
 
-            resultadoComparar1 = (denspopulacao1 < denspopulacao2) ? 1 : 0;
-            /*
-            if (denspopulacao1 < denspopulacao2) {     
-                printf ("Resultado: %s venceu!\n", nomeCidade1);
-            }
-            else if (denspopulacao1 > denspopulacao2) {
-                printf ("Resultado: %s venceu!\n", nomeCidade2);
-            }
-            else {
-            printf ("\nEmpate!\n");
-            }
-            */            
+            resultadoComparar1 = (denspopulacao1 < denspopulacao2) ? 1 : 0;                   
             
             break;
         
